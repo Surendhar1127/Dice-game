@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    body{
+        background-color: rgb(43, 38, 38);
+    }
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    font-size: 20pt;
+    color: aqua;
+    font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+}
+.image1{
+    text-align: center;
+    color: aqua;
+    font-family: 'Lobster', cursive;
+}
+.image2{
+    text-align: center;
+    color: aqua;
+    font-family: 'Lobster', cursive;
+}
+.image1 img{
+    height: 200px;
+    width: 200px;
+}
+.image2 img{
+    height: 200px;
+    width: 200px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+}
+.button{
+    margin-top: 20px;
+}
+
+.button button{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: aqua;
+    color:rgb(22, 114, 145) ;
+}
+.button button:hover{
+    color:black;
+}
+
+   </style>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>Refresh me</h1>
+        </div>
+
+<div class="images">
+        <div class="image1">
+            <h2>Player 1</h2>
+            <img src="" alt="">
+        </div>
+
+        <div class="image2">
+            <h2>Player 2</h2>
+            <img src="" alt="">
+        </div>
+    </div>
+    <div class="button">
+        <!-- Add an ID to the button for easier selection in JavaScript -->
+        <button id="refreshButton">Choose</button>
+    </div>
+
+</div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
